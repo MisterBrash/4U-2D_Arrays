@@ -1,15 +1,18 @@
-# 2.2 - 2D Arrays (Challenge)
+# 2D Arrays - Challenge 🤔
 
-###### ICS4U
+###### ICS4U - Mr. Brash 🐿️
 
-Only attempt this _after_ completing the items in [TASKS.md](TASKS.md)
+‼️ Only attempt this challenge _after_ completing the items in the [practice (homework)](./PRACTICE.md)
 
-## Random Walk
+[🔗 Return to the README](../README.md)
+
+## Challenge → Random Walk
 
 **`random_walk(h, w, blank = '*')`** - Is a function that _returns_ a 2D array with the following parameters:
 
 - `h` is height (rows), `w` is width (columns), and `blank` is the character of each element in the array at the beginning.
 - `blank` defaults to `*` if you do not pass the parameter (for example: `random_walk(10, 15)` )
+
 
 ### The details:
  
@@ -28,7 +31,9 @@ Only attempt this _after_ completing the items in [TASKS.md](TASKS.md)
 - **The function ends when it reaches the last row** 
  
 - The function returns the matrix of this walk
- 
+
+<table><tr><td> 
+
 **Example:**
 
 ```JS
@@ -45,10 +50,19 @@ print_2d(myPath);
 ```
 
 
+Those pretty arrows are just special characters:
+
+```JS
+/* Constants */
+const LEFT_ARROW = "←";
+const RIGHT_ARROW = "→";
+const DOWN_ARROW = "↓";
+```
+
+</td></tr>
+</table>
 
 ---
 
-To use the arrows, you can either copy/paste or utilize:
-- lib.LEFT_ARROW
-- lib.RIGHT_ARROW
-- lib.DOWN_ARROW
+<br><br>
+🐿️

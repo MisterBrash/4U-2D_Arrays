@@ -1,8 +1,8 @@
-# 2.2 - 2D Arrays (Tasks)
+# 2D Arrays - Practice 💻 
 
-###### ICS4UC
+###### ICS4U - Mr. Brash 🐿️
 
-Back to [the lesson](README.md)
+🔗 [Back to the lesson (README)](../README.md)
 
 This task should keep you busy! Check with classmates and then with your teacher to see if you have it working correctly.
 

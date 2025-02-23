@@ -1,16 +1,37 @@
-# 2.2 - 2D Arrays (Lesson)
+# 2D Arrays (Lesson)
 
-###### ICS4U - [Mr. Brash](https://www.brash.ca/ics4uc/2)
+###### ICS4U - [Mr. Brash 🐿️](https://www.brash.ca/ics4uc/lessons/9)
 
-[Jump to the tasks](TASKS.md)
+[🔗 Jump to the practice (homework)](./.lesson/TASKS.md)
+
 
 ## The Lesson:
 Two-dimensional (or more) arrays are extremely common in programming. They hold data that represents grids - a cartesian plane, a checkerboard, etc...
 
+<table><tr><td>
+
+You can create a pre-filled 2D array by _declaring_ it:
+```JS
+let my_2d_array = [ [1,2,3], [9, 8, 7], ["a", "b", "c"] ];
+```
+
+You can also use the `new Array()` syntax:
+```JS
+let my_2d_array = new Array(4);   // array with 4 empty slots
+
+for (let i = 0; i < my_2d_array.length; i++)
+  my_2d_array[i] = new Array(10);   // each slot will be an empty array of length 10
+```
+
+</td></tr></table>
+
+
+---
 
 Here is an example function that creates and prints two different 2D Arrays:
 <table><tr><td>
 
+**Creating 2D Arrays:**  
 ```JS
 // Create and print a couple 2D arrays
 function example() {
@@ -18,6 +39,7 @@ function example() {
   let tic_tac_toe = [['x', 'o', ' '],
                      [' ', ' ', ' '],
                      ['x', 'x', 'o']];
+
   console.log(tic_tac_toe, "\n");
   
   // Here's an array with 4 rows and 5 columns
@@ -34,9 +56,9 @@ function example() {
 
     
 </td>
-<td>
+<td valign="top">
 
-Output:
+**Output:**  
 ```
 example()
 
