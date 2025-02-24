@@ -10,7 +10,7 @@ Two-dimensional (or more) arrays are extremely common in programming. They hold 
 
 You can create a pre-filled 2D array by _declaring_ it:
 
-<table><tr><td>
+<table border='0'><tr><td>
 
 ```JS
 let my_2d_array = [ [1,2,3], [9, 8, 7], ["a", "b", "c"] ];
