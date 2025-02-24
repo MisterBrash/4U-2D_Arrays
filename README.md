@@ -4,6 +4,7 @@
 
 #### Table of Contents
 🟣 [Creating 2D Arrays](#creating-2d-arrays)  
+🟣 [Finding Elements](#finding-elements)  
 🟣 [Length of 2D Arrays](#length)  
 🟣 ["Ragged" Arrays](#ragged-arrays)  
 🟣 [Heads Up!](#heads-up)  
@@ -74,6 +75,19 @@ function example() {
 
 </td></tr></table>
 
+## Finding Elements
+
+##### 🔝 [Back to the top](#table-of-contents)  
+
+Referencing an element in a 2D array is simple. The first element number represents _which array_ you are referencing and the second number represents _which element inside that array_.  
+**Example:**
+```JS
+let my_array = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['j', 'k', 'l']]];
+
+console.log(my_array[2][0]);   // Prints g
+console.log(my_array[0][1]);   // Prints b
+console.log(my_array[3][2]);   // Prints l
+```
 
 ## Length
 
