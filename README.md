@@ -3,11 +3,11 @@
 ###### ICS4U - [Mr. Brash 🐿️](https://www.brash.ca/ics4uc/lessons/9)
 
 #### Table of Contents
-[🟣 Creating 2D Arrays](#creating-2d-arrays)  
-[🟣 Length of 2D Arrays](#length)  
-[🟣 "Ragged" Arrays](#ragged-arrays)  
-[🟣 Heads Up!](#heads-up)  
-[🔗 Practice (classwork)](./.lesson/PRACTICE.md)  
+🟣 [Creating 2D Arrays](#creating-2d-arrays)  
+🟣 [Length of 2D Arrays](#length)  
+🟣 ["Ragged" Arrays](#ragged-arrays)  
+🟣 [Heads Up!](#heads-up)  
+🔗 [Practice (classwork)](./.lesson/PRACTICE.md)  
 
 ---
 
@@ -77,7 +77,7 @@ function example() {
 
 ## Length
 
-##### [🔝 Back to the top](#table-of-contents)  
+##### 🔝 [Back to the top](#table-of-contents)  
 
 The length of a 2D array is the number of elements at the **base** level.
 
@@ -106,7 +106,7 @@ That is called a _ragged_ array. It's not a problem, but it can be difficult to 
 
 ## Heads up!
 
-##### [🔝 Back to the top](#table-of-contents)  
+##### 🔝 [Back to the top](#table-of-contents)  
 
 Arrays in JS & Python are passed to functions or copied _by reference_.
 
