@@ -87,7 +87,7 @@ console.log(arr.length);
 > 5
 ```
 
-To determine the full length, you need to _traverse_ the arrays. See the task (below) where you will code this.
+To determine the full length, you need to _traverse_ the arrays. See [the practice](./.lesson/PRACTICE.md) where you will code this.
 
 
 ## Ragged Arrays
