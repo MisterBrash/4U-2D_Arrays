@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /**
  * ICS4UC - Mr. Brash 🐿️
  * 
