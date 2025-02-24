@@ -2,16 +2,17 @@
 
 ###### ICS4U - [Mr. Brash 🐿️](https://www.brash.ca/ics4uc/lessons/9)
 
-[🔗 Jump to the practice (homework)](./.lesson/TASKS.md)
+#### Table of Contents
+[🟣 Creating 2D Arrays](#creating-2d-arrays)  
+[🟣 Length of 2D Arrays](#length)  
+[🟣 "Ragged" Arrays](#ragged-arrays)  
+[🟣 Heads Up!](#heads-up)  
+[🔗 Practice (classwork)](./.lesson/PRACTICE.md)  
 
-<style>
-table{
-    border: none !important;
-    border-collapse:collapse;
-}
-</style>
+---
 
-## The Lesson:
+## Creating 2D Arrays
+
 Two-dimensional (or more) arrays are extremely common in programming. They hold data that represents grids - a cartesian plane, a checkerboard, etc...
 
 You can create a pre-filled 2D array by _declaring_ it:
@@ -28,12 +29,9 @@ for (let i = 0; i < my_2d_array.length; i++)
   my_2d_array[i] = new Array(10);   // each slot will be an empty array of length 10
 ```
 
----
-
 Here is an example function that creates and prints two different 2D Arrays:
 <table><tr><td>
 
-**Creating 2D Arrays:**  
 ```JS
 // Create and print a couple 2D arrays
 function example() {
@@ -56,13 +54,12 @@ function example() {
 }
 ```
 
-    
 </td>
 <td valign="top">
 
 **Output:**  
-```
-example()
+```BASH
+~/js$ example()
 
 [ [ 'x', 'o', ' ' ], [ ' ', ' ', ' ' ], [ 'x', 'x', 'o' ] ] 
 
@@ -78,7 +75,10 @@ example()
 </td></tr></table>
 
 
-### Length
+## Length
+
+##### [🔝 Back to the top](#table-of-contents)  
+
 The length of a 2D array is the number of elements at the **base** level.
 
 ```JS
@@ -90,7 +90,7 @@ console.log(arr.length);
 To determine the full length, you need to _traverse_ the arrays. See the task (below) where you will code this.
 
 
-### Ragged Arrays
+## Ragged Arrays
 After a while, or perhaps even on purpose, you might end up with a situation where rows have differing numbers of columns.
 
 ```js
@@ -104,4 +104,32 @@ After a while, or perhaps even on purpose, you might end up with a situation whe
 
 That is called a _ragged_ array. It's not a problem, but it can be difficult to manage. **Note:** ragged arrays are not possible in strongly typed languages such as C++ or Java.
 
+## Heads up!
 
+##### [🔝 Back to the top](#table-of-contents)  
+
+Arrays in JS & Python are passed to functions or copied _by reference_.
+
+> 🤔 What does this mean - "by reference"?
+
+It means that when you try to make a copy or pass an array into a function, it makes a _link_ or _shortcut_ to the array.
+
+```JS
+let og_sheep = ['🐑', '🐑'];
+
+let sheeps2 = og_sheep; // Copy the array
+
+sheeps2.push('🐺');     // Add a wolf
+
+// Print the arrays
+console.log(sheeps2);    // -> [ '🐑', '🐑', '🐺' ]
+console.log(og_sheep);   // -> [ '🐑', '🐑', '🐺' ]
+```
+
+😱 - both arrays have a wolf?! &nbsp;&nbsp;&nbsp;  ([source](https://www.samanthaming.com/tidbits/35-es6-way-to-clone-an-array/#why-can-t-i-use-to-copy-an-array))
+  
+### ⇨ &nbsp; [Go to the Practice (classwork)](./.lesson/PRACTICE.md)
+
+<br>
+
+🐿️
